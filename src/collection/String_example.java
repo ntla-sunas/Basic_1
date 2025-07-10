@@ -1,3 +1,5 @@
+package collection;
+
 public class String_example {
     public static void main(String[] args) {
         //1.1 Khởi tạo chuỗi

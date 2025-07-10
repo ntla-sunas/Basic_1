@@ -1,3 +1,4 @@
+package collection;
 import java.util.Arrays;
 
 public class Array_Example {
