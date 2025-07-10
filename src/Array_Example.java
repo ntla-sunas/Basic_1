@@ -3,8 +3,6 @@ import java.util.Arrays;
 public class Array_Example {
     public static void main(String[] args) {
         // 1. Mảng một chiều - khai báo và khởi tạo
-        int[] myArr1 = new int[5];
-        myArr1[0] = 1;
         int[] myArr2 = {1, 2, 3, 9, 10};
         int[] myArr3 = new int[]{1, 2, 3, 9, 10};
 
