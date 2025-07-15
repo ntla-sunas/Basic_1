@@ -1,22 +1,20 @@
-# IntelliJ IDEA
+# Ignore tất cả mọi thứ
+*
+
+# Nhưng cho phép các file .java
+!*.java
+
+# Cho phép folder nếu chứa .java
+!*/
+
+# Ngoại lệ giữ lại thư mục src hoặc project
+!/src/
+!/Practice_1/
+!/Practice_2/
+!/Practice_3/
+
+# Loại bỏ hệ thống build / IDE / macOS
 .idea/
-*.iml
-*.iws
 out/
-*.class
-
-
-# VS Code (nếu bạn dùng xen kẽ)
-.vscode/
-
-# Maven / Gradle build
-target/
-build/
-
-# Logs
-*.log
-
-# OS system files
 .DS_Store
-Thumbs.db
-
+*.iml
